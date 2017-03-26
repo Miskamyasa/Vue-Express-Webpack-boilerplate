@@ -1,4 +1,4 @@
-## Express, mongoose, webpack, sass, babel, vue.js
+## Express, pug, sass, vue.js and Webpack
 
 ### Dev mode
  npm run dev
