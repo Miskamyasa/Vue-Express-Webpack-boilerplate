@@ -15,21 +15,12 @@
 ```
 Production dependencies:
 
- "async": "^2.1.5"
  "body-parser": "~1.16.0"
  "cookie-parser": "~1.4.3"
  "debug": "~2.6.0"
  "express": "~4.14.1"
- "express-flash": "0.0.2"
- "express-session": "^1.15.1"
- "mongoose": "^4.9.0"
  "morgan": "~1.7.0"
- "nodemailer": "^3.1.7"
- "passport": "^0.3.2"
- "passport-local": "^1.0.0"
- "passport-local-mongoose": "^4.0.0"
  "pug": "~2.0.0-beta10"
- "rotating-file-stream": "^1.1.9"
  "serve-favicon": "~2.3.2"
 ```
 ```
