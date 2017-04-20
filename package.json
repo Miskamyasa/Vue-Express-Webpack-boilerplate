@@ -1,20 +1,22 @@
 {
-  "name": "agents",
+  "name": "nodejs-webpack-boilerplate",
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": "6.9.10",
-    "npm": "4.3.0"
+    "node": ">=6.9.5",
+    "npm": "*"
   },
   "scripts": {
     "predev": "webpack",
     "dev": "DEBUG=agents:* node-dev ./bin/www & webpack -w",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "webpack --optimize-minimize --define process.env.NODE_ENV='production'"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
+    "dotenv": "^4.0.0",
     "express": "~4.14.1",
     "morgan": "~1.7.0",
     "pug": "~2.0.0-beta10",
