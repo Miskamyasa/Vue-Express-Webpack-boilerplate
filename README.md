@@ -1,15 +1,17 @@
 ## Express, pug, sass, vue.js and Webpack
 
 ### Dev mode
- npm run dev
+ "npm run dev" start dev env with sourcemaps activated in sass and js
 ```
  open in browser:  localhost:4000
  autoreload enabled (must have livereload plugin for chrome)
  https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 ```
 ### Production
- npm start
-
+```
+ first: run "npm run build" on dev env for repack all src to compressed format
+ second: run "npm start" for serve on prod env
+```
 
 ### Dependencies
 ```
@@ -18,6 +20,7 @@ Production dependencies:
  "body-parser": "~1.16.0"
  "cookie-parser": "~1.4.3"
  "debug": "~2.6.0"
+ "dotenv": "~4.0.0"
  "express": "~4.14.1"
  "morgan": "~1.7.0"
  "pug": "~2.0.0-beta10"

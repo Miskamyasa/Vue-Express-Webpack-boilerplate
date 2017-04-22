@@ -62,8 +62,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('./public/css/style.css'),
-    new LiveReloadPlugin(),
-    new webpack.optimize.UglifyJsPlugin()
+    new LiveReloadPlugin()
   ]
 }
 
