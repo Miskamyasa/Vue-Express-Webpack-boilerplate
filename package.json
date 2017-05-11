@@ -1,7 +1,7 @@
 {
   "name": "nodejs-webpack-boilerplate",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">=6.9.5",
     "npm": "*"
