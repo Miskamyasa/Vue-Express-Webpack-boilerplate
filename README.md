@@ -1,6 +1,6 @@
 ## Express, pug, sass, vue.js and Webpack
-Global dependencies: "node-dev"
-Recommended global installs: webpack, node-sass, eslint
+ Global dependencies: "node-dev"
+ Recommended global installs: webpack, node-sass, eslint
 
 ### Dev mode server
  "npm run dev" start dev env with sourcemaps activated in sass and js
