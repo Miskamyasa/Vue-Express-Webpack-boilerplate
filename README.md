@@ -1,5 +1,5 @@
 ## Express, pug, sass, vue.js and Webpack
- Global dependencies: "node-dev"
+ Global dependencies: "node-dev"  
  Recommended global installs: webpack, node-sass, eslint
 
 ### Dev mode server
