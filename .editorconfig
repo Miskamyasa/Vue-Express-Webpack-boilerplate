@@ -13,16 +13,8 @@ trim_trailing_whitespace = true
 # Set default charset
 [*.*]
 charset = utf-8
-
-# php space indentation psr-2 code standart
-[*.{php}]
 indent_style = space
 indent_size = 4
-
-# html, js, css, scss space indentation
-[*.{js,css,scss,sass,pug,html}]
-indent_style = space
-indent_size = 2
 
 # Tab indentation (no size specified)
 [Makefile]
@@ -30,13 +22,3 @@ indent_style = tab
 
 [*.md]
 trim_trailing_whitespace = false
-
-# Indentation override for all JS under lib directory
-[lib/**.js]
-indent_style = space
-indent_size = 2
-
-# Matches the exact files either package.json or .travis.yml
-[{package.json,.travis.yml}]
-indent_style = space
-indent_size = 2

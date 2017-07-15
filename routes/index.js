@@ -1,9 +1,7 @@
-var express = require('express')
-var router = express.Router()
+const cors = require('cors')
+const router = require('express').Router()
+const reception = require('./reception')
 
-/* GET home page. */
-router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Nodejs-webpack-boilerplate' })
-})
+router.get('/', reception.homepage)
 
 module.exports = router

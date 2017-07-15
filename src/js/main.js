@@ -1,3 +1,3 @@
-import styles from '../sass/main.sass'
+import '../sass/main.sass'
 
-console.log("EcmaScript main script connected")
+console.log("Scripts connected")

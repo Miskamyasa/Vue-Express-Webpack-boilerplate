@@ -1,51 +1,52 @@
 {
-  "name": "nodejs-webpack-boilerplate",
-  "version": "0.0.1",
-  "private": false,
-  "engines": {
-    "node": ">=6.9.5",
-    "npm": "*"
-  },
-  "scripts": {
-    "predev": "webpack",
-    "dev": "DEBUG=agents:* node-dev ./bin/www & webpack -w",
-    "start": "node ./bin/www",
-    "build": "webpack --optimize-minimize --define process.env.NODE_ENV='production'"
-  },
-  "dependencies": {
-    "body-parser": "~1.16.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
-    "dotenv": "^4.0.0",
-    "express": "~4.14.1",
-    "morgan": "~1.7.0",
-    "pug": "~2.0.0-beta10",
-    "serve-favicon": "~2.3.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.0",
-    "css-loader": "^0.27.3",
-    "eslint": "^3.17.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.2",
-    "eslint-plugin-standard": "^2.0.1",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "node-sass": "^4.5.1",
-    "postcss-loader": "^1.3.3",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.0",
-    "vue": "^2.2.4",
-    "vue-loader": "^11.3.1",
-    "vue-template-compiler": "^2.2.4",
-    "webpack": "^2.3.1",
-    "webpack-livereload-plugin": "^0.10.0"
-  },
-  "author": "miskamyasa <funboyru@mail.ru>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Miskamyasa/nodejs-webpack-boilerplate.git"
-  }
+    "name": "nodejs-webpack-boilerplate",
+    "version": "1.0.0",
+    "private": false,
+    "engines": {
+        "node": ">=8.1.4",
+        "npm": ">=4.0.0"
+    },
+    "scripts": {
+        "predev": "webpack",
+        "dev": "DEBUG=agents:* node-dev ./bin/www & webpack -w",
+        "start": "node ./bin/www",
+        "build": "webpack --optimize-minimize --define process.env.NODE_ENV='production'"
+    },
+    "dependencies": {
+        "body-parser": "~1.17.2",
+        "cookie-parser": "~1.4.3",
+        "cors": "^2.8.4",
+        "debug": "~2.6.0",
+        "dotenv": "^4.0.0",
+        "express": "~4.15.3",
+        "express-flash": "0.0.2",
+        "express-session": "^1.15.3",
+        "pug": "~2.0.0-beta10",
+        "serve-favicon": "~2.4.3"
+    },
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "css-loader": "^0.28.4",
+        "extract-text-webpack-plugin": "^3.0.0",
+        "node-sass": "^4.5.3",
+        "postcss-loader": "^2.0.6",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.18.2",
+        "vue": "^2.3.4",
+        "vue-loader": "^13.0.1",
+        "vue-template-compiler": "^2.3.4",
+        "webpack": "^3.2.0",
+        "webpack-livereload-plugin": "^0.11.0"
+    },
+    "author": "miskamyasa <funboyru@mail.ru>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Miskamyasa/nodejs-webpack-boilerplate.git"
+    }
 }
