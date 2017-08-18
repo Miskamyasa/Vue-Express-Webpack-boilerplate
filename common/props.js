@@ -1,7 +1,7 @@
 module.exports = {
     adminMail: 'admin@sitemail.com',
     production: process.env.NODE_ENV,
-    metaTitle: `App Title`,
+    metaTitle: `App`,
     metaDescription: `App Description`,
     metaKeywords: `App Keywords`,
 
