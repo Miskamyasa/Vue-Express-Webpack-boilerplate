@@ -1,9 +1,9 @@
 {
-    "name": "nodejs-webpack-boilerplate",
-    "version": "1.0.1",
+    "name": "Vue-Express-Webpack-boilerplate",
+    "version": "1.0.2",
     "private": false,
     "engines": {
-        "node": ">=8.1.4",
+        "node": ">=6.10.1",
         "npm": ">=4.0.0"
     },
     "scripts": {
@@ -21,9 +21,7 @@
         "express": "~4.15.4",
         "express-flash": "0.0.2",
         "express-session": "^1.15.5",
-        "pug": "~2.0.0-rc.3"
-    },
-    "devDependencies": {
+        "pug": "~2.0.0-rc.3",
         "babel-core": "^6.26.0",
         "babel-loader": "^7.1.1",
         "babel-plugin-transform-runtime": "^6.23.0",
@@ -46,6 +44,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Miskamyasa/nodejs-webpack-boilerplate.git"
+        "url": "git+https://github.com/Miskamyasa/Vue-Express-Webpack-boilerplate.git"
     }
 }

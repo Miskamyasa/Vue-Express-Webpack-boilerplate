@@ -17,38 +17,32 @@
 
 ### Dependencies
 ```
-Production dependencies:
-    
+Dependencies:
     "body-parser": "~1.17.2",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
-    "debug": "~2.6.0",
+    "debug": "~3.0.0",
     "dotenv": "^4.0.0",
-    "express": "~4.15.3",
+    "express": "~4.15.4",
     "express-flash": "0.0.2",
-    "express-session": "^1.15.3",
-    "pug": "~2.0.0-beta10",
-    "serve-favicon": "~2.4.3"
-```
-```
-Dev dependencies:
-
-    "babel-core": "^6.25.0",
+    "express-session": "^1.15.5",
+    "pug": "~2.0.0-rc.3",
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "css-loader": "^0.28.4",
+    "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "vue": "^2.3.4",
-    "vue-loader": "^13.0.1",
-    "vue-template-compiler": "^2.3.4",
-    "webpack": "^3.2.0",
+    "vue": "^2.4.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5",
     "webpack-livereload-plugin": "^0.11.0"
 ```
 
