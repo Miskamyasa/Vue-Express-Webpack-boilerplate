@@ -3,6 +3,8 @@ const props = require('../common').props
 
 module.exports = {
 
-    homepage: (req, res) => res.render('index', props.viewProps()),
+    homepage: (req, res) => res.render('index', props.viewProps({
+        metaTitle: 'Homepage'
+    })),
 
 }
