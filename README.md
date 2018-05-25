@@ -2,6 +2,8 @@
  Global dependencies: "node-dev"  
  Recommended global installs: webpack, node-sass, eslint
 
+ npm install -g node-dev webpack node-sass eslint
+
 ### Dev mode server
 ```
     "npm run dev" start dev env with sourcemaps activated in sass and js

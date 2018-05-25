@@ -1,3 +1,6 @@
-import '../sass/main.sass'
+import '../sass/main.sass';
 
-console.log("Scripts connected")
+import Vue from 'vue/dist/vue.js';
+import App from './vue/App.vue';
+
+new Vue({ el: '#root', render: vue => vue(App) });
